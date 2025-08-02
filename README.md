@@ -1,59 +1,59 @@
-# 视频推荐系统 (Video Recommendation System)
+# Bilibili Video Recommendation System
 
-基于层次分析法(AHP)的B站视频推荐系统，通过多指标综合评价来推荐高质量视频内容。
+An intelligent video recommendation system based on Analytic Hierarchy Process (AHP) that recommends high-quality video content through multi-criteria evaluation.
 
-## 功能特性
+## Features
 
-- 🎯 基于AHP层次分析法的智能推荐算法
-- 📊 多维度视频评价指标体系
-- 🕷️ B站视频数据爬取功能
-- 🔍 智能视频搜索和筛选
-- 📈 视频数据标准化处理
-- 💾 推荐结果持久化存储
+- 🎯 Intelligent recommendation algorithm based on AHP (Analytic Hierarchy Process)
+- 📊 Multi-dimensional video evaluation indicator system
+- 🕷️ Bilibili video data crawling functionality
+- 🔍 Intelligent video search and filtering
+- 📈 Video data normalization processing
+- 💾 Persistent storage of recommendation results
 
-## 主要模块
+## Main Modules
 
-- `ahp.py` - 层次分析法核心算法实现
-- `spider.py` - B站视频数据爬虫
-- `search.py` - 视频搜索功能
-- `normalize_data.py` - 数据标准化处理
-- `video_operations.py` - 视频操作相关功能
-- `server.py` - 服务器端实现
-- `harry_mcp.py` - MCP服务端实现
+- `ahp.py` - Core AHP algorithm implementation
+- `spider.py` - Bilibili video data crawler
+- `search.py` - Video search functionality
+- `normalize_data.py` - Data normalization processing
+- `video_operations.py` - Video operation related functions
+- `server.py` - Server-side implementation
+- `harry_mcp.py` - MCP server implementation
 
-## 数据文件
+## Data Files
 
-- `bilibili_recommendations.csv` - B站推荐视频数据
-- `bilibili_recommendations_with_title.csv` - 包含标题的推荐数据
-- `ahp_matrix.csv` - AHP判断矩阵
-- `user_data.txt` - 用户数据
-- `bilibili_video_recommendations_list.txt` - 推荐视频列表
+- `bilibili_recommendations.csv` - Bilibili recommended video data
+- `bilibili_recommendations_with_title.csv` - Recommendation data with titles
+- `ahp_matrix.csv` - AHP judgment matrix
+- `user_data.txt` - User data
+- `bilibili_video_recommendations_list.txt` - Recommended video list
 
-## 安装依赖
+## Installation
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## 使用方法
+## Usage
 
-1. 运行爬虫获取视频数据
-2. 配置AHP判断矩阵
-3. 执行推荐算法
-4. 查看推荐结果
+1. Run the crawler to fetch video data
+2. Configure the AHP judgment matrix
+3. Execute the recommendation algorithm
+4. View recommendation results
 
-## 技术栈
+## Technology Stack
 
 - Python 3.x
-- Pandas - 数据处理
-- NumPy - 数值计算
-- Requests - 网络请求
-- JSON - 数据格式
+- Pandas - Data processing
+- NumPy - Numerical computation
+- Requests - HTTP requests
+- JSON - Data format
 
-## 贡献
+## Contributing
 
-欢迎提交Issues和Pull Requests来改进项目！
+Welcome to submit Issues and Pull Requests to improve the project!
 
-## 许可证
+## License
 
 MIT License 
