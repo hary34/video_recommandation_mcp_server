@@ -1,0 +1,6 @@
+mcp
+bilibili-api
+requests
+pandas
+psutil
+openpyxl 

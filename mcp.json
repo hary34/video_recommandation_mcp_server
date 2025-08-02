@@ -1,0 +1,13 @@
+{
+    "mcpServers": {
+      "harry_mcp": {
+        "command": "uv",
+        "args": [
+            "--directory",
+            "/Users/harry121229/Documents/mcps",
+            "run",
+            "harry_mcp.py"
+        ]
+      }
+    }
+}
